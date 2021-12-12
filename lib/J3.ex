@@ -3,30 +3,55 @@ defmodule J3 do
   @pos_mid_left 2
   @pos_far_right 5
 
-  @lady_1 ~s|Natsiou|
-  @color_1 ~s|rouge|
-  @lady_2 ~s|Marcolla|
-  @color_2 ~s|vert|
-  @color_3 ~s|violet|
-  @color_4 ~s|blanc|
-  @drink_1 ~s|absinthe|
-  @city_1 ~s|Karnaca|
-  @color_5 ~s|bleu|
-  @object_1 ~s|bague|
-  @lady_3 ~s|Winslow|
-  @object_2 ~s|medaille|
-  @city_2 ~s|Baleton|
-  @object_3 ~s|diamant|
-  @object_4 ~s|pendentif|
-  @city_3 ~s|Dunwall|
-  @drink_2 ~s|bière|
-  @lady_4 ~s|Contee|
-  @drink_3 ~s|rhum|
-  @city_4 ~s|Fraeport|
-  @drink_4 ~s|whisky|
-  @drink_5 ~s|vin|
-  @lady_5 ~s|Finch|
-  @city_5 ~s|Dabokva|
+  # @lady_1 ~s|Natsiou|
+  # @color_1 ~s|rouge|
+  # @lady_2 ~s|Marcolla|
+  # @color_2 ~s|vert|
+  # @color_3 ~s|violet|
+  # @color_4 ~s|blanc|
+  # @drink_1 ~s|absinthe|
+  # @city_1 ~s|Karnaca|
+  # @color_5 ~s|bleu|
+  # @object_1 ~s|bague|
+  # @lady_3 ~s|Winslow|
+  # @object_2 ~s|medaille|
+  # @city_2 ~s|Baleton|
+  # @object_3 ~s|diamant|
+  # @object_4 ~s|pendentif|
+  # @city_3 ~s|Dunwall|
+  # @drink_2 ~s|bière|
+  # @lady_4 ~s|Contee|
+  # @drink_3 ~s|rhum|
+  # @city_4 ~s|Fraeport|
+  # @drink_4 ~s|whisky|
+  # @drink_5 ~s|vin|
+  # @lady_5 ~s|Finch|
+  # @city_5 ~s|Dabokva|
+
+  @lady_1 "Marcolla"
+  @color_1 "rouge"
+  @lady_2 "Winslow"
+  @color_2 "blanc"
+  @color_3 "vert"
+  @color_4 "bleu"
+  @drink_1 "bière"
+  @city_1 "Freaport"
+  @color_5 "violet"
+  @object_1 "tabatière"
+  @lady_3 "Finch"
+  @object_2 "medaille"
+  @city_2 "Dunwall"
+  @object_3 "bague"
+  @object_4 "pendentif"
+  @city_3 "Baleton"
+  @drink_2 "rhum"
+  @lady_4 "Natsiou"
+  @drink_3 "whisky"
+  @city_4 "Karnaca"
+  @drink_4 "vin"
+  @drink_5 "absinthe"
+  @lady_5 "Contee"
+  @city_5 "Dabokva"
   @object_5 hd(
               ~w(tabatiere diamant pendentif bague medaille) --
                 [@object_1, @object_2, @object_3, @object_4]
